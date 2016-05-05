@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OpenCV Samples</string>
+
+    <!-- Camera Calibration Strings -->
+    <string name="action_calibrate">Calibrate</string>
+    <string name="calibration">Calibration</string>
+    <string name="undistortion">Undistortion</string>
+    <string name="comparison">Comparison</string>
+    <string name="preview_mode">Preview mode</string>
+    <string name="calibration_successful">Successfully calibrated!\nAvg. re-projection error:</string>
+    <string name="calibration_unsuccessful">Unsuccessful calibration.\nTry again</string>
+    <string name="more_samples">Please, capture more samples</string>
+    <string name="calibrating">Calibrating...</string>
+    <string name="please_wait">Please, wait</string>
+    <string name="original">Original</string>
+    <string name="undistorted">Undistorted</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tutorial1">Tutorial 1 Sample</string>
+    <string name="title_activity_tutorial2">Tutorial 2 Sample</string>
+    <string name="title_activity_tutorial3">Tutorial 3 Sample</string>
+    <string name="title_activity_image_manipulations">Image Manipulations Sample</string>
+    <string name="title_activity_color_blob_detection">Color Blob Detection Sample</string>
+    <string name="title_activity_camera_calibration">Camera Calibration Sample</string>
+    <string name="title_activity_puzzle15">Puzzle 15 Sample</string>
+    <string name="title_activity_face_detection">Face Detection Sample</string>
+</resources>

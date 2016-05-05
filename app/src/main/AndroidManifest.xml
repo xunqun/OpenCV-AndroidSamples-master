@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jnardari.opencv_androidsamples">
+
+    <!-- Camera Permissions -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera.front"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SamplesActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Tutorial1Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_tutorial1"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Tutorial2Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_tutorial2"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Tutorial3Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_tutorial3"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ImageManipulationsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_image_manipulations"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ColorBlobDetectionActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_color_blob_detection"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.CameraCalibrationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_camera_calibration"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.Puzzle15Activity"
+            android:label="@string/title_activity_puzzle15"
+            android:parentActivityName=".activities.SamplesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity
+            android:name=".activities.FaceDetectionActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_face_detection"
+            android:parentActivityName=".activities.SamplesActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jnardari.opencv_androidsamples.activities.SamplesActivity" />
+        </activity>
+        <activity android:name=".activities.MyTestActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+    </application>
+
+</manifest>
