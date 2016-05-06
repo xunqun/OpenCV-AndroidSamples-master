@@ -33,7 +33,7 @@ public class MyTestActivity extends AppCompatActivity implements CameraBridgeVie
 
     private static final String TAG = "MyTestActivity";
     private CameraBridgeViewBase vOpenCvCameraView;
-    int thresh = 50, N = 11; // karlphillip: decreased N to 2, was 11.
+    int thresh = 50, N = 5; // karlphillip: decreased N to 2, was 11.
     List<MatOfPoint> squares = new ArrayList<MatOfPoint>();
     private Mat rgba;
     private List<MatOfPoint> toDraw = new ArrayList<>();
@@ -76,7 +76,7 @@ public class MyTestActivity extends AppCompatActivity implements CameraBridgeVie
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        setContentView(R.layout.activity_my_test);
+        setContentView(R.layout.activity_find_rectangle);
         initViews();
     }
 
